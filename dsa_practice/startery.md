@@ -1,6 +1,6 @@
 data structure are of two types:
 1. Linear DS : arrays, linkedlist, stack, queue, hashtables
-2. NonLiner DS : trees, binary search tree, heaps, graphs, trie, union find
+2. NonLiner DS : trees, binary search tree, heaps, graphs, tree, union find
 
 algorithms:
 sorting, binary search, bit manupulation
@@ -9,7 +9,7 @@ graph algos: DFS/BFS, Topological sort
 shortest path algos: Dijkstra, Bellman Ford
 
 Problem Solveing Techniques:
-Twopointers, sliding window, prefixsum, fas and slow pointer, divide and conquer, greedy, recurssion, backtracking, dynamic programming, top k elements
+Twopointers, sliding window, prefixsum, fast and slow pointer, divide and conquer, greedy, recurssion, backtracking, dynamic programming, top k elements
 
 Time and Space complexity must
 
@@ -23,5 +23,4 @@ two pointers, sliding windows etc
 vid link: https://www.youtube.com/watch?v=F-ao3Q6I2Fc
 
 tips to remember:
-1. repetaion, revise regularly  
-
+1. repetaion, revise regularly

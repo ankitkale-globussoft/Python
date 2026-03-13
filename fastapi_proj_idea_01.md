@@ -91,13 +91,13 @@ A backend system that allows users to automate business workflows by connecting 
 **Purpose:** Expose backend functionality.
 
 **Key Endpoints:**  
-- `POST /auth/register` – User registration ✅  
-- `POST /auth/login` – User login ✅  
-- `POST /workflows` – Create workflow ✅  
-- `GET /workflows` – List workflows ✅  
+- `POST /auth/register` – User registration ✅
+- `POST /auth/login` – User login ✅
+- `POST /workflows` – Create workflow ✅
+- `GET /workflows` – List workflows ✅
 - `PUT /workflows/{id}` – Update workflow ✅  
-- `DELETE /workflows/{id}` – Delete workflow ✅  
-- `GET /workflows/{id}/logs` – Execution logs ✅  
+- `DELETE /workflows/{id}` – Delete workflow ✅
+- `GET /workflows/{id}/logs` – Execution logs ✅
 - Optional: Admin endpoints for managing users & stats
 
 ---
