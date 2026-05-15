@@ -9,6 +9,8 @@ for i in range(len(stack)):
 
 print(rev_stack)
 """
+from traceback import print_tb
+
 """
 
 # que: check if paranthesis are balanced or not
@@ -75,14 +77,46 @@ def twoSum(nums, target):
 """
 
 
-nums = [2,15,11,7] # unsorted array
-target = 9
+# nums = [2,15,11,7] # unsorted array
+# target = 9
 
-hashmap = {}
+# hashmap = {}
 
-for i, n in enumerate(nums):
-    if target-n in hashmap:
-        print(hashmap[target-n], i)
-    else:
-        hashmap[n] = i
+# for i, n in enumerate(nums):
+#     if target-n in hashmap:
+#         print(hashmap[target-n], i)
+#     else:
+#         hashmap[n] = i
 
+# Q. find the target element in a array
+
+# import time
+#
+# que = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# target = 3
+#
+# def check(arr, tar):
+#     strat_t = time.time()
+#     strat = 0
+#     end = len(arr)-1
+#
+#     while strat <= end:
+#         mid = strat + (end-strat) / 2
+#         mid = round(mid)
+#         if arr[mid] == tar:
+#             end_t = time.time()
+#             print(end_t - strat_t)
+#             return True
+#         if arr[mid] < target:
+#             strat = mid
+#         else:
+#             end = mid
+#     end_t = time.time()
+#     print(end_t - strat_t)
+#     return False
+#
+# ans = check(que, target)
+# if ans:
+#     print("yes, the target is present in the given array")
+# else:
+#     print("no, the target is not present in the given array")

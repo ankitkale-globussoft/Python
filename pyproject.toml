@@ -1,0 +1,14 @@
+[project]
+name = "python"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "streamlit_learning",
+    "streamlit_learning/pythontest",
+    "streamlit-learning",
+    "streamlit_learn/learning",
+    "notesAPI_fastapi",
+]
